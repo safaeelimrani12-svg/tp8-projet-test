@@ -29,6 +29,10 @@ body {
 
 #main-title {
     margin: 20px 0;
+    color: #2563eb;
+    font-size: 42px;
+    font-family: Georgia, serif;
+    font-weight: bold;
 }
 
 /* Description */
