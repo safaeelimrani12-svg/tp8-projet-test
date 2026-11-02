@@ -1,0 +1,70 @@
+
+/* General layout */
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 85%;
+    max-width: 800px;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Subtitle */
+
+.subtitle {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+/* Main title */
+
+#main-title {
+    margin: 20px 0;
+}
+
+/* Description */
+
+.description {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Team members */
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 45px;
+}
+
+.member {
+    padding: 15px 30px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    min-width: 150px;
+}
+
+.member h2 {
+    font-size: 18px;
+}
+
+.member p {
+    font-size: 14px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    font-size: 13px;
+}
