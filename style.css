@@ -8,6 +8,8 @@ body {
     justify-content: center;
     align-items: center;
     font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #dbeafe, #fce7f3);
+animation: fadeIn 1.5s ease-in;
 }
 
 .container {
@@ -71,4 +73,13 @@ body {
 footer {
     margin-top: 50px;
     font-size: 13px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
